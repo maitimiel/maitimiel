@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maitimiel's Archive</title>
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+	<link href='https://fonts.googleapis.com/css?family=Courier+Prime' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Yeseva+One' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Zeyada' rel='stylesheet'>
+    <link rel="icon" href="/layout/favicon.png" type="image/gif" sizes="any">
+  </head>
+  <body>
+	<h1 class="siteheader"><a href="https://maitimiel.ink">Maitimiel's Archive</a></h1>
+	
+    <h1>How can I create my own archive on Neocities?</h1>
+    <ul>
+    <li><a href="#intro">Intro</a></li>
+    <li><a href="#getting-started">Getting started</a></li>
+    <li><a href="#site-structure">Site structure</a>
+      <ul><li><a href="#site-index">Site index</a></li>
+      <li><a href="#work-pages">Work pages</a></li>
+      <li><a href="#work-listing">Work listings</a></li>
+      <li><a href="#other-pages">Other pages</a></li>
+      <li><a href="#mapping">Mapping and navigation</a></li></ul></li>
+    <li><a href="#updating">Updating your site</a></li>
+    <li><a href="#prettiness">Making your site pretty</a></li>
+    <li><a href="#resources">Basic coding resources
+      <ul><li><a href="#html">HTML</a></li>
+      <li><a href="#css">CSS</a></li></ul></li>
+    <li><a href="#final-thoughts">Final thoughts</a></li>
+    </ul>
+      <h3><a id="intro"></a>Intro</h3>
+        <p>Here's how you can make a Neocities archive of your very own to put your fic/art/whatever, if you'd like to do something similar to what I did. This isn't the only way to make your own archive, however - do check out <a href="https://melannen.dreamwidth.org/534629.html">other guides</a>, and don't be afraid to experiment! Before you dive in, however, you might want to consider a few things:</p>
+        <ul>
+          <li><strong>You can't host a lot of art on the Neocities free plan</strong> - that means that if you want to archive art, videos, or anything else that's 'heavy' you'll need to host it elsewhere and embed it on your Neocities site, or pay for a Neocities subscription.</li>
+          <li><strong>Content on Neocities must comply with the <a href="https://neocities.org/terms">Neocities TOS</a></strong> - these Terms are pretty decent, and your content shouldn't be in danger, but whenever you use any website to host content, you should follow the website's rules, including Neocities. Just because it's your site doesn't mean you don't have terms to follow. Take some time to read them.</li>
+          <li><strong>There are easier ways to archive your work</strong> - you'll probably have an easier time by using Wordpress or a similar platform to create a personal archive, or just archive on AO3. That doesn't mean you shouldn't use Neocities! Neocities can be a lot of fun - just figure out what your priorities are. If you want any kind of 'sophisticated' features, such as tags, searching, filtering, etc, that'll either cost you a lot of work, or just plain be impossible. But if you're planning to create something relatively simple, you should manage on Neocities just fine.</li>
+        </ul>
+        <p>At its most basic, all you gotta do to create a page on your Neocities site is to upload an HTML file (we'll get into that below!). Each file is a page, and you can have as many, or as few pages as you'd like. You could in fact simply put every single work on your landing page and call it a day. Of course, that might result in a very long page, and it won't be the easiest to navigate. But it's your site! You could do that.</p>
+        <p>I like having a little bit more structure, by making each work be on its own page, and then create landing pages so that people can find and access those works. If you'd like a similar set up, your site should take less than an hour to put in place, plus however long it takes to archive all your works. Read on for detailed instructions!</p>
+      <h3>What you'll need</h3>
+      <ul>
+      <li><a href="https://neocities.org">Neocities account</a></li>
+      </ul>
+      <p>Technically that's all you actually need. There's a few other things that might be nice to have open, however:</p>
+      <ul>
+      <li><a href="https://docs.google.com/document/d/19eZnBQ4989Dr17v2ODFgE8QWAo9Oahi4USDNS3hOSvM/edit">Min's script to format content as HTML.</a></li>
+      <li><a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic">An HTML tester</a> (W3Schools' TryIt if my favourite, but there's many options out there).</li>
+      <li><strong>If you're archiving media other than text</strong> (images, audio, etc): an external host for that content.</li>
+      </ul>
+      <h3><a id="getting-started"></a>Getting started</h3>
+      <p>The first thing you need yo do, if you haven't already, is to create your website:</p>
+      <ol>
+      <li>Access <a href="https://neocities.org">neocities.org</a> and fill in the sign up form with some basic info about your site:
+        <ul>
+        <li><strong>Username:</strong> Your website's address will be <i>yourusername.neocities.org</i>.</li>
+        <li><strong>Tags:</strong> Add some tags describing what your site is about, such as 'fanfiction,' 'archive,' 'Black Sails,' etc.</li> 
+        <li><strong>Password:</strong> Chose a strong one, don't get hacked easily! xD</li>
+        <li><strong>Email:</strong> You'll need to confirm access to this email later.</li>
+        </ul>
+      </li>  
+      <li>Select <strong>Create My Site</strong></li>
+      <li>On the next page, you'll be asked whether you'd like to continue with free account, or to become a subscriber for 5 USD/month. This tutorial assumes you're using a <strong>free account</strong></li>
+      <li>Now, you'll be asked to confirm your email. Log in to your email account and you should have received a message titled <i>[Neocities] Confirm your email address</i>. Go ahead and confirm your email.</li>
+      </ol>
+      
+      <p>Congrats! Now you have a website. At this stage, Neocities will link you to a few resources to help you code your own website. These are good resources! Feel free to check them out if you'd like. I'll also link some further resources at the end of this guide. However, <strong>if you have zero knowledge of HTML and CSS, I recommend you save these links for later</strong> -- I'm writing this assuming you don't know anything, and I'll show you the essentials. Don't overwhelm yourself with learning how to code if you don't want to, I promise you'll be fine for now.</p>
+      
+      <p>You can browse <a href="https://neocities.org">neocities.org</a> to check out other people's websites if you want to. Whenever you're ready, select the <strong>Edit Site</strong> (or go to <a href="https://neocities.org/dashboard">neocities.org/dashboard</a>) to see your Dashboard and start creating your personal archive.</p>
+      
+      <h3><a id="site-structure"></a>Site structure</h3>
+      
+      <p>Let's start by having a look at the <a href="https://neocities.org/dashboard">Neocities Dashboard</a>. This is where you'll add pages to your website, and also edit existing pages. Each page will appear here as a <code>.html</code> file. To add new pages, you'll add new files. I'll show you how to do so below.</p>
+      
+      <p>You can also upload files to use on your site if you want to, such as images, but <strong>be careful!</strong> on the free plan, you'll only be able to host 1 GB worth of content. That should be plenty for text, but if you start uploading images or other media, you'll probably run out. Consider hosting media elsewhere and embedding it on your Neocities site instead.<p>
+      
+      <p>When you first create a website on Neocities, you'll have 4 files on your Dashboard:</p>
+      
+      <ul>
+        <li><strong>index.html</strong> - This is your website's landing page. When someone goes to <i>yourusername.neocities.org</i>, this is the page they'll see. This page cannot be deleted. Neocities puts some random content in here by default. You can safely erase this content later and replace it with whatever you want, but leave it be for now.</li>
+        <li><strong>not_found.html</strong> - Whenever someone tries to access a URL on your site and the address they type doesn't exisit, they'll be taken to this page. There's a few things you might want to add to it later.</li>
+        <li><strong>neocities.png</strong> - This is an image. It's here to be used on the website. Ignore it for now.</li>
+        <li><strong>style.css</strong> - This is a <i>stylesheet</i>. Stylesheets are used to easily add consistent style across several pages. I'll explain in more detail how to do this later in the tutorial.</li>
+      </ul>      
+      
+      <p>In this tutorial, our goal is to:</p>
+      
+      <ol>
+      <li>Create a good landing page for your archive, with some basic information about you, that people can use to navigate your site.</li>
+      <li>Create a work page to archive your first work.</li>
+      <li>Create a work listing.</li>
+      <li>Customize your 'not found' page.</li>
+      <li>Add other pages, if desired.</li>
+      <li>Add some styling to your archive.</li>
+      </ol>
+      
+        <h4><a id="site-index"></a>Site index</h4>
+        
+        <h4><a id="work-pages"></a>Work pages</h4>
+        
+        <h4><a id="work-listing"></a>Work listings</h4>
+        
+        <h4><a id="other-pages"></a>Other pages</h4>
+
+      <h3><a id="mapping"></a>Mapping and navigation</h3>
+            
+      <h3><a id="updating"></a>Updating your site</h3>
+      
+      <h3><a id="pretiness"></a>Making your site pretty</h3>
+      
+      <h3><a id="resources"></a>Basic coding resources</h3>
+      
+      <h4><a id="html"></a>HTML</h4>
+      
+      <ul>
+      <li>https://neocities.org/tutorials</li>
+      <li>https://www.w3schools.com/html/default.asp</li>
+      </ul>
+      
+      <h4><a id="css"></a>CSS</h4>
+      
+  </body>
+</html>

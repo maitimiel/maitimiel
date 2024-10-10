@@ -1,1 +1,29 @@
-Hi
+body {
+  background-color: #F8F8FF;
+  color: #342135;
+  font-family: "Courier Prime", Courier, monospace;
+  font-size: 18px;
+}
+
+h1, h2 {
+	font-family: Zeyada, 'Brush Script MT', cursive;
+}
+
+h1 {
+	font-size: 50px;
+}
+
+h2 {
+	font-size: 35px;
+}
+
+.siteheader {
+      font-family: "Yeseva One", Georgia, serif;
+      font-size: 40px;
+      text-align: right;
+    }
+
+.siteheader a {  
+  color: #342135;
+  text-decoration: none;
+}
