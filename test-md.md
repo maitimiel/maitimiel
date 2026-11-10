@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home - maitimiel.ink</title>
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="icon" href="/layout/favicon.png" type="image/gif" sizes="any">
+  </head>
+  <body>
+	<h1 class="siteheader"><a href="https://maitimiel.ink">maitimiel.ink</a></h1>
+	
+	<h1>Hello!</h1>
+	
+	<p>I'm maitimiel and I occasionally write fic! I got into fandom writing about The Silmarillion, but I read in a lot of fandoms, including Mo Dao Zu Xi, Good Omens, Yuri on Ice, A Song of Ice and Fire. I'm not majorly active these days but I'm a Small and Indie Web enthusiast, and it was about time I archived my own work!</p>
+	
+	<p>A few places where you can find me online:</p>
+	
+	<ul>
+		<li><a href="https://archiveofourown.org/users/maitimiel">AO3</a></li>
+		<li><a href="https://maitimiel.tumblr.com">Tumblr</a></li>
+		<li><a href="https://maitimiel.dreamwidth.org">Dreamwidth</a></li>
+		<li>Discord, as "maitimiel"</li>
+		</ul>
+	
+	<h2>Recent fic</h2>
+	
+	<ul>
+		<li>Will add later :D</li>
+	</ul>
+	
+	<h2>Recent changes</h2>
+	
+		<ul>
+		<li><b>2024-10-10:</b> Migrated from Neocities to Github Pages under my own domain! Also made small updates to home page, picked a couple of fonts and colors to get started on my stylesheet )keeping things simple!), and cleared out Neocities' standard content from the pages I haven't populated yet. 
+		<li><b>2024-10-05:</b> Set up custom domain on Github to eventually move the site, but there's an issue making the site appear as unsafe. Will poke later.</li>
+		<li><b>2024-10-04:</b> Blanked previous /index page, added new /index which is just a 'welcome,' added new /home, and several blank pages where I'll eventually add content. </li>
+	</ul>
+	
+  </body>
+</html>
